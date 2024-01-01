@@ -264,7 +264,7 @@ max-width: 496px;
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 48px) / 3); 
+    width: calc((100% - 24 * 2) / 3);
 }
 .portfolio-list-items{
     
@@ -293,12 +293,12 @@ max-width: 496px;
 }
 
 .footer{
+    display: block;
     line-height: 1.17;
     text-transform: uppercase;
     background: rgba(46, 47, 66, 1);
     color: #F4F4FD;
     padding: 100px 0;
-    display: block;
 }
 
 .par{
@@ -315,7 +315,7 @@ max-width: 496px;
     color: #f4f4fd;
 }
 
-.name-footer-logo {
+.name-footer-logo{
     color: var(--IRIS, #4d5ae5);
     font-family: Raleway, sans-serif;
     font-size: 18px;
