@@ -161,7 +161,7 @@ max-width: 496px;
 }
 
 .list-text-items{
-    width: calc((100% - 72px) / 4)); 
+    width: calc((100% - 72px) / 4);; 
 }
 
 .par-inv{
@@ -327,4 +327,7 @@ max-width: 496px;
     color:#4D5AE5;
     margin-right: 76px;
     margin-bottom: 16px;
+}
+.container > a{
+   display: inline-block;
 }
