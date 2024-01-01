@@ -264,9 +264,10 @@ max-width: 496px;
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3); 
 }
 .portfolio-list-items{
-    width: calc((100% - 48px) / 3); 
+    
 }
 .visually-hidden {
     position: absolute;
