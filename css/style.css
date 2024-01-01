@@ -266,7 +266,7 @@ max-width: 496px;
     row-gap: 48px;
 }
 .portfolio-list-items{
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3); 
 }
 .visually-hidden {
     position: absolute;
@@ -314,20 +314,17 @@ max-width: 496px;
     color: #f4f4fd;
 }
 
-.last-logo{
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
+.name-footer-logo {
+    color: var(--IRIS, #4d5ae5);
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17;
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
-    text-align: left;
-    background: #2E2F42;
     text-transform: uppercase;
-    color:#4D5AE5;
-    margin-right: 76px;
+    display: inline-block;
     margin-bottom: 16px;
-}
+  }
 .container > a{
    display: inline-block;
 }
