@@ -267,7 +267,7 @@ max-width: 496px;
     width: calc((100% - 24 * 2) / 3);
 }
 .portfolio-list-items{
-    
+    width: calc((100% - 24 * 2) / 3);
 }
 .visually-hidden {
     position: absolute;
