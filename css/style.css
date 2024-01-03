@@ -21,13 +21,22 @@ ul{
     margin: 0;
     padding: 0;
 }
+h1,h2,h3{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
 
 .header-container{
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .container{
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -46,7 +55,6 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
-background: #2E2F42;
 text-transform: uppercase;
 color:#4D5AE5;
 margin-right: 76px;
@@ -63,6 +71,7 @@ margin-bottom: 16px;
 .address-items{
     display: flex; 
     gap: 40px;
+    margin-left: auto;
 }
 
 .span-web{
@@ -119,6 +128,7 @@ line-height: 1.07;
 color: #ffffff;
 letter-spacing: 0.02em;
 max-width: 496px;
+margin: auto;
 }
 
 .list-text{
@@ -199,7 +209,7 @@ max-width: 496px;
 
 .team-header{
     margin-bottom: 72px; 
-
+    margin: auto;
 }
 
 .headerthree > h2{
@@ -267,8 +277,8 @@ max-width: 496px;
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 24px * 2) / 3);
 }
+
 .portfolio-list-items{
     width: calc((100% - 24px * 2) / 3);
 }
@@ -289,6 +299,7 @@ max-width: 496px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    margin-top: 0%;
 }
 
 .container-list-items > h3{
@@ -296,7 +307,6 @@ max-width: 496px;
 }
 
 .footer{
-    display: block;
     line-height: 1.17;
     text-transform: uppercase;
     background: rgba(46, 47, 66, 1);
@@ -325,8 +335,6 @@ max-width: 496px;
     font-weight: 700;
     line-height: 1.17; 
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    background: rgba(77, 90, 229, 1);
 }
