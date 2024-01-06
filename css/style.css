@@ -136,7 +136,7 @@ max-width: 496px;
 margin: auto;
 }
 
-.main-button{
+.main-button {
   color: var(--WHITE, #fff);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -151,6 +151,9 @@ margin: auto;
   border-radius: 4px; 
   display: block;
   margin: auto;
+  margin-top: 72px;
+  gap: 10px;
+  padding: 16px, 32px, 16px, 32px;
 }
 
 .main-button:hover,
