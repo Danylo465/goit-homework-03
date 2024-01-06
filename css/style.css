@@ -122,7 +122,6 @@ padding: 188px 0;
 .main-header{
 font-size: 56px;
 font-weight: 700;
-line-height: 60px;
 text-align: center;
 line-height: 1.07;
 color: #ffffff;
@@ -139,12 +138,11 @@ margin: auto;
     color: #2e2f42;
     list-style-type: none;
     margin-bottom: 8px;
-    
 }
 
 .main-button{
   color: var(--WHITE, #fff);
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; 
@@ -209,6 +207,7 @@ margin: auto;
 
 .team-header{
     margin-bottom: 72px; 
+    margin: auto;
 }
 
 .headerthree > h2{
@@ -262,13 +261,14 @@ margin: auto;
 
 
 .portfolio-header{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: rgba(46, 47, 66, 1);
     margin-bottom: 72px;
+    
 }
 
 .portfolio-list{
@@ -307,7 +307,6 @@ margin: auto;
 
 .footer{
     line-height: 1.17;
-    text-transform: uppercase;
     background: rgba(46, 47, 66, 1);
     color: #F4F4FD;
     padding: 100px 0;
