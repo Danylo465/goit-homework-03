@@ -42,6 +42,8 @@ h1,h2,h3,p{
 .header-container{
     border-bottom: 1px solid #e7e9fc;
     display: flex;
+    height: 72px;
+
 }
 
 .nav-elements{
@@ -55,12 +57,10 @@ h1,h2,h3,p{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
-    margin-top: 16px;
     text-transform: uppercase;
     color:#4D5AE5;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -72,6 +72,7 @@ h1,h2,h3,p{
 .address-items{
     display: flex; 
     gap: 40px;
+    justify-content: end;
 }
                 
 .span-web{
@@ -84,6 +85,7 @@ color: #2e2f42;
 }
 
 .nav-link{
+    display: block;
     color: #2e2f42;
     font-weight: 500;
     text-decoration: none;
@@ -151,7 +153,7 @@ margin: auto;
   border-radius: 4px; 
   display: block;
   margin: auto;
-  margin-top: 72px;
+  margin-top: 72pxф;
   gap: 10px;
   padding: 16px, 32px, 16px, 32px;
 }
@@ -243,11 +245,6 @@ margin: auto;
 .team-list-items{
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
     list-style-type: none;
     border-radius: 0px 0px 4px 4px;
 }
@@ -264,13 +261,13 @@ margin: auto;
     margin-bottom: 8px;
 }
 
-
 .team-par{
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    font-weight: 400;
 
 }
 /* Кінець налаштувань третьої секції */
