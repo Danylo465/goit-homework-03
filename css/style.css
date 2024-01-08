@@ -42,6 +42,7 @@ h1,h2,h3,p{
 .header-container{
     border-bottom: 1px solid #e7e9fc;
     display: flex;
+    align-items: baseline;
     height: 72px;
 
 }
