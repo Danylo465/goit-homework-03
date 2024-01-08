@@ -136,6 +136,7 @@ color: #ffffff;
 letter-spacing: 0.02em;
 max-width: 496px;
 margin: auto;
+
 }
 
 .main-button {
@@ -153,7 +154,7 @@ margin: auto;
   border-radius: 4px; 
   display: block;
   margin: auto;
-  margin-top: 72pxф;
+  margin-top: 72px;
   gap: 10px;
   padding: 16px, 32px, 16px, 32px;
 }
